@@ -100,6 +100,6 @@ contact: "Foo bar"
 
 # Testimonial content. Shown on Home and About page. 
 testimonial:
-    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
-    author: Marcel Newman
-    position: WEB DESIGNER - BLACKTIE.CO
+    message: "Trisignia is an outstanding software development firm. Jacob and his team created an awesome application that was simple, clean, and provided users with an excellent user experience. Having worked with other development firms in the past, Trisignia is one of the easiest I have ever worked with &#8212; they did not just design what we wanted, they were true partners in helping us develop our app."
+    author: Bob Norberg
+    position: Principal - Docufyi
