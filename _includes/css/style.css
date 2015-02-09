@@ -514,6 +514,7 @@ a.anchor{
   background: {{ site.colors.beige }};
   padding: 1em;
   position: relative;
+  text-align: left;
 }
 
 .newsletter-signup:before {
