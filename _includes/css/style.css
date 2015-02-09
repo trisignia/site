@@ -509,3 +509,49 @@ a.anchor{
 .contact-form label{
   text-transform: capitalize;
 }
+
+.newsletter-signup{
+  background: {{ site.colors.beige }};
+  padding: 1em;
+  position: relative;
+  text-align: left;
+}
+
+.newsletter-signup:before {
+  content:"";
+  position:absolute;
+  top:0;
+  right:0;
+  border-width:0 16px 16px 0; /* This trick side-steps a webkit bug */
+  border-style:solid;
+  border-color:#fff #fff #9fa18b #9fa18b; /* A bit more verbose to work with .rounded too */
+  display:block; width:0; /* Only for Firefox 3.0 damage limitation */
+}
+
+.newsletter-signup__subhead{
+  color: inherit;
+  font-weight: bold;
+}
+
+.newsletter-signup__email,
+.newsletter-signup__fname,
+.newsletter-signup__lname{
+  width: 100%;
+}
+.newsletter-signup__error{
+  font-weight: bold;
+  color: red;
+}
+
+.newsletter-signup__submit-btn{
+  background: {{ site.colors.orange }};
+  border: none;
+}
+
+.newsletter-signup__submit-btn:hover,
+.newsletter-signup__submit-btn:focus,
+.newsletter-signup__submit-btn:active{
+  background: #ff2d25;
+}
+
+.hidden-from-view { left: -5000px; position: absolute; }
