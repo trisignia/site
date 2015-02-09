@@ -38,8 +38,7 @@ permalink: /contact/
                   <div class="form-group">
                     <label for="contact-form__budget">Your budget range</label>
                     <input type="text" class="form-control"
-                    id="contact-form__budget" placeholder="(A ballpark idea is
-                    fine)" name="budget">
+                    id="contact-form__budget" placeholder="(A ballpark idea is fine)" name="budget">
                   </div>
                   <div class="form-group">
                     <label for="contact-form__referer">How you heard of us</label>
@@ -64,7 +63,9 @@ permalink: /contact/
                     {% endfor %}
                 </p>
                 <p>
-                    Email: {{ site.email }}<br/>
+                    Email: 
+                    {% include email.html %}
+                    <br>
                     Tel: {{ site.tel }}
                 </p>
                 <p>{{ site.about }}</p>
