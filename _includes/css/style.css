@@ -509,3 +509,20 @@ a.anchor{
 .contact-form label{
   text-transform: capitalize;
 }
+
+.newsletter-signup__subhead{
+  color: inherit;
+  font-weight: bold;
+}
+
+.newsletter-signup__email,
+.newsletter-signup__fname,
+.newsletter-signup__lname{
+  width: 100%;
+}
+.newsletter-signup__error{
+  font-weight: bold;
+  color: red;
+}
+
+.hidden-from-view { left: -5000px; position: absolute; }
