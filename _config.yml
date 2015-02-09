@@ -11,7 +11,7 @@ url: "http://trisignia.com"
 markdown: kramdown
 permalink: /:categories/:title
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
-exclude: [s3_website.yml]
+exclude: [s3_website.yml, portfolio.html]
 
 colors:  #in hex code if not noted else
   primary: "#00b3fe" #"#F70031" 
